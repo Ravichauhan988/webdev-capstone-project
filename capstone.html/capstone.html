@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EliteEats - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <!-- Navbar or top menu bar-->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">EliteEats</div> <!--logo-->
+
+      <!-- Mobile menu toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav class="nav-links" id="navMenu"> <!--links-->
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#featured">Featured</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-outline" id="loginBtn">Login</button>
+        <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero /  top Banner -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Order your favorite food from EliteEats</h1>
+        <p>Fast delivery from the best restaurants near you. Fresh, hot and delicious.</p><!--subtital-->
+        <div class="hero-actions">
+          <input type="text" placeholder="Search for dishes or restaurants" class="search-input" />
+          <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>500+</h3>
+            <p>Restaurants</p>
+          </div>
+          <div class="stat-item">
+            <h3>2k+</h3>
+            <p>Dishes</p>
+          </div>
+          <div class="stat-item">
+            <h3>4.8</h3>
+            <p>Average Rating</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-card hover-card">
+          <img src= https://media.istockphoto.com/id/493063494/photo/burger-and-cola.jpg?s=2048x2048&w=is&k=20&c=HctR-6GnsK15KeLo9ZtcXnSjqweEbNvfjsWI33jYWlY= alt="Food" />
+          <div class="hero-card-info">
+            <h3>Special Combo</h3>
+            <p>Flat 30% OFF on first order</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order by Category -->
+  <section id="categories" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Browse by Category</h2>
+        <p>Choose from a variety of cuisines and food types.</p>
+      </div>
+      <div class="category-grid">
+        <div class="category-card hover-card">
+          <img src="https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="Pizza" />
+          <h3>Pizza</h3>
+          <p>Cheesy, crispy and hot.</p>
+        </div>
+        <div class="category-card hover-card">
+          <img src="https://media.istockphoto.com/id/496389174/photo/delicious-hamburgers.jpg?s=612x612&w=0&k=20&c=vnRqLGfUhTIdcuBH9kr60nPXpd4lTZeSOeZkAsG_G5w=" alt="Burgers" />
+          <h3>Burgers</h3>
+          <p>Loaded with flavors.</p>
+        </div>
+        <div class="category-card hover-card">
+          <img src=https://t3.ftcdn.net/jpg/01/76/33/14/360_F_176331484_nLHY9EoW0ETwPZaS9OBXPGbCJhT70GZe.jpg alt="Desserts" />
+          <h3>Desserts</h3>
+          <p> Jalebi,balushahi,Gulab jamun,kheer,barfi </p>
+        </div>
+        <div class="category-card hover-card">
+          <img src="https://t4.ftcdn.net/jpg/16/77/42/79/240_F_1677427934_Y8Ti7rIjg6gP3gFZIzXulKrmSjphkHIz.jpg" alt="desi Thali" />
+          <h3>Desi Thali </h3>
+          <p> dal bhati churma ,sahdesi Thalii paneer chole bhature Salads, bowls and more.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Restaurants -->
+  <section id="featured" class="section section-gray">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Restaurants</h2>
+        <p>Handpicked places loved by EliteEats customers.</p>
+      </div>
+      <div class="restaurant-grid">
+        <div class="restaurant-card hover-card">
+          <img src= https://cdn.mygingergarlickitchen.com/images/800px/800px-veg-momos-recipe-5.jpg alt="Wow Momos" />
+          <div class="restaurant-info">
+            <h3>Wow! Momos</h3>
+            <p>Momos, Fast Food</p>
+            <div class="restaurant-meta">
+              <span class="rating">4.5 ★</span>
+              <span>30-40 min</span>
+              <span>₹200 for two</span>
+            </div>
+            <div class="restaurant-tag">Deal of the Day</div>
+          </div>
+        </div>
+
+        <div class="restaurant-card hover-card">
+          <img src="https://cdn.uengage.io/uploads/5/image-183435-1715686808.png" alt="La Pinoz Pizza" />
+          <div class="restaurant-info">
+            <h3>La Pino'z Pizza</h3>
+            <p>Pizza, Italian</p>
+            <div class="restaurant-meta">
+              <span class="rating">4.3 ★</span>
+              <span>25-35 min</span>
+              <span>₹300 for two</span>
+            </div>
+            <div class="restaurant-tag restaurant-tag-alt">Flat 20% OFF</div>
+          </div>
+        </div>
+
+        <div class="restaurant-card hover-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8iZbYH299PO4lHt_ZageJKQ44xAhzTQnAlw&s" alt="Haka" />
+          <div class="restaurant-info">
+            <h3>Haka</h3>
+            <p>Asian, Chinese</p>
+            <div class="restaurant-meta">
+              <span class="rating">4.6 ★</span>
+              <span>35-45 min</span>
+              <span>₹350 for two</span>
+            </div>
+            <div class="restaurant-tag">Buy 1 Get 1</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What our customers say</h2>
+        <p>Real feedback from people who love EliteEats.</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card hover-card">
+          <p class="review-text">
+            “ EliteEats makes it so easy to order from my favorite places. Delivery is always on time.”
+          </p>
+          <h4>Rohit Sharma</h4>
+          <span class="review-rating">★★★★★</span>
+        </div>
+        <div class="review-card hover-card">
+          <p class="review-text">
+            “Clean UI, simple ordering and great deals. EliteEats is my go-to app now.”
+          </p>
+          <h4>Anuskha sharma</h4>
+          <span class="review-rating">★★★★☆</span>
+        </div>
+        <div class="review-card hover-card">
+          <p class="review-text">
+            “Love the variety of restaurants and categories. Highly recommend it to everyone.”
+          </p>
+          <h4>virat kohli</h4>
+          <span class="review-rating">★★★★★</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-content">
+      <div>
+        <h3>EliteEats</h3>
+        <p>Order food from the best restaurants in your city with a few clicks.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#home">About</a></li>
+          <li><a href="#featured">Restaurants</a></li>
+          <li><a href="#reviews">Testimonials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Terms & Policy</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get the app</h4>
+        <button class="btn btn-outline full">App Store</button>
+        <button class="btn btn-outline full">Google Play</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 EliteEats. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Simple modal for Login / Signup -->
+  <div class="overlay" id="authOverlay">
+    <div class="auth-modal hover-card">
+      <h2 id="authTitle">Login</h2>
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button class="btn btn-primary full">Continue</button>
+      <button class="btn btn-outline full" onclick="document.getElementById('authOverlay').style.display='none'">
+        Close
+      </button>
+    </div>
+  </div>
+</body>
+</html>
